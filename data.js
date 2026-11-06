@@ -21,15 +21,15 @@ window.GAME_DATA = {
   characters: [
     {
       id: "uiso", name: "천의소", group: "fav", status: "",
-      avatar: "img/hansegye.png",
-      scriptFile: "scripts/hansegye.txt",        // ← 대화는 이 txt 파일에서 읽어옴
-      affinity: { level: 15, color: "#55c4b4", dot: false, title: "스레기의 그녀",
+      avatar: "img/uiso.png",
+      scriptFile: "scripts/uiso.txt",        // ← 대화는 이 txt 파일에서 읽어옴
+      affinity: { level: 15, color: "#55c4b4", dot: false, title: "무서운 사람",
         stages: [ 
-          { from: 30, title: "귀찮긴 해도…" },
-          { from: 50, title: "일단은 친구?" },
-          { from: 65, title: "언니라고 부를래~" },
-          { from: 80, title: "나는 안돼?" },
-          { from: 100, title: "헤헷, 이미 늦었다구?" },
+          { from: 30, title: "괜찮은가?" },
+          { from: 50, title: "이상해" },
+          { from: 65, title: "신경쓰이게 하지마" },
+          { from: 80, title: "다 보여" },
+          { from: 100, title: "..." },
         ],
       },
     },
