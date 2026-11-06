@@ -483,8 +483,8 @@ function showChoices() {
   box.hidden = false; $("#main").scrollTop = $("#main").scrollHeight;
 }
 function openRoom(c) {
-  if (c.id !== "hansegye") {
-    alert("나 말고 누구랑 대화하려고? 아~ 세계는 싫은데~"); /*---대화거부---*/
+  if (c.id !== "uiso") {
+    alert("난 안 궁금해?");
     return;
   }
   room = c; S.unread[c.id] = 0; save(); render(); play(c);
