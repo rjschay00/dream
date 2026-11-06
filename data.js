@@ -20,7 +20,7 @@ window.GAME_DATA = {
 
   characters: [
     {
-      id: "hansegye", name: "한세계", group: "fav", status: "삶에 도파민이 없어",
+      id: "cheonuiso", name: "천의소", group: "fav", status: "",
       avatar: "img/hansegye.png",
       scriptFile: "scripts/hansegye.txt",        // ← 대화는 이 txt 파일에서 읽어옴
       affinity: { level: 15, color: "#55c4b4", dot: false, title: "스레기의 그녀",
